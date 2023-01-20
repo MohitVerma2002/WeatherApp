@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <header>
+            <div>
+                <img src="logo.webp" style="width: 50px;">
+            </div>
+        <div class="header">
+            <h1><a href="index.html">WeatherLive</a></h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main">
+            <div class="row">
+                <form>
+                <input type="search" id="search" placeholder="Enter City Name"
+                required
+                autocomplete="off">
+                <button id="search-button">Search</button>
+            </form>
+            </div>
+            
+            <main id="app-container">
+                <div id="location">
+                    <p>------------</p>
+                </div>
+                <div id="temp">
+                    <img id="temp-icon"src="cloud.png" alt="">
+                    <p><span id="temp-value">------------</span><span id="temp-unit">&#176c</span></p>
+                </div>
+                <div id="climate">
+                    <p>------------</p>
+                </div>
+            </main>
+        </div>
+        </div>
+    
+            <footer>
+
+                <div class="footer">
+                    <a href="https://www.instagram.com/invites/contact/?i=snf8lo9d3kmv&utm_content=n6qr4nn"><h4>Developed by <span>M</span>ohit <span>V</span>erma</h4></a>
+                    <p>Copyright &copy; 2023 -Mohit - All Rights Reserved -</p>
+                </div>
+            </footer>
+    <script src="script.js"></script>
+</body>
+</html>
